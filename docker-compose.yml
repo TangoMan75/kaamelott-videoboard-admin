@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  node:
+    build:
+      context: ./
+      dockerfile: ./docker/node/Dockerfile
+    container_name: kaamelott-admin
+    tty: true
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+      # SSH keys
+      - ~/.ssh:/root/.ssh:ro
+    restart: unless-stopped
+    networks:
+      - tango
+    labels:
+      traefik.enable: true
+      # http local
+      traefik.http.routers.kaamelott-admin.entrypoints: web
+      traefik.http.routers.kaamelott-admin.rule: Host(`kaamelott-admin.localhost`)
+
+networks:
+  tango:
+    external: true
