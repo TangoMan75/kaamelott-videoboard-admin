@@ -3,7 +3,7 @@ TangoMan Kaamelott Videoboard React Admin
 
 Awesome **TangoMan Kaamelott Videoboard React Admin** is a dockerized React Admin for Kebab-case Kaamelott Videoboard.
 
-🖊 Notes
+📝 Notes
 --------
 
 - Kaamelott Video Board can be found here: [https://github.com/flazzarotto/kaamelott-videoboard](https://github.com/flazzarotto/kaamelott-videoboard)
@@ -31,7 +31,7 @@ $ make up
 
 ### 🛠 Make
 
-#### 🧞 Install Make (Linux)
+#### 🐧 Install Make (Linux)
 
 On linux machine enter following command
 
@@ -39,11 +39,11 @@ On linux machine enter following command
 $ sudo apt-get install --assume-yes make
 ```
 
-#### 🧞 Install Make (Windows)
+#### 🏁 Install Make (Windows)
 
 On windows machine you will need to install [cygwin](http://www.cygwin.com/) or [GnuWin make](http://gnuwin32.sourceforge.net/packages/make.htm) first to execute make script.
 
-#### 🧞 Install Make (OS X)
+#### 🍎 Install Make (OS X)
 
 Make exists by default on OS X, if you want to update to a newer version use:
 
@@ -53,7 +53,7 @@ $ brew install make
 
 ### 🐋 Docker
 
-#### 🧞 Install Docker (Linux)
+#### 🐧 Install Docker (Linux)
 
 On linux machine enter following command
 
@@ -77,13 +77,13 @@ $ sudo usermod -a -G docker ${USER}
 $ newgrp docker
 ```
 
-#### 🧞 Install Docker (Windows)
+#### 🏁 Install Docker (Windows)
 
 Download docker installer
 
 - [https://download.docker.com/win/static/stable/x86_64/docker-17.09.0-ce.zip](https://download.docker.com/win/static/stable/x86_64/docker-17.09.0-ce.zip)
 
-#### 🧞 Install Docker (OSX)
+#### 🍎 Install Docker (OSX)
 
 Download docker installer
 
@@ -92,7 +92,7 @@ Download docker installer
 
 ### 🐳 Docker Compose
 
-#### 🧞 Install Docker Compose (Linux)
+#### 🐧 Install Docker Compose (Linux)
 
 On linux machine you will need curl to install docker-compose with the following commands
 
